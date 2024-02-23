@@ -1,0 +1,88 @@
+[20:27:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:27:54] [ServerMain/INFO]: Loaded 7 recipes
+[20:27:55] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:27:55] [Server thread/WARN]: ****************************
+[20:27:55] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[20:27:55] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[20:27:55] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[20:27:55] [Server thread/WARN]: ****************************
+[20:27:55] [Server thread/INFO]: Loading properties
+[20:27:55] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[20:27:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:27:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:27:57] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:27:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:27:58] [Server thread/INFO]: Default game type: SURVIVAL
+[20:27:58] [Server thread/INFO]: Generating keypair
+[20:27:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:27:58] [Server thread/INFO]: Using epoll channel type
+[20:27:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:27:58] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:27:58] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[20:27:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:27:58] [Server thread/INFO]: Preparing level "world"
+[20:27:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:28:00] [Server thread/INFO]: Time elapsed: 436 ms
+[20:28:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:28:00] [Server thread/INFO]: Time elapsed: 204 ms
+[20:28:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:28:00] [Server thread/INFO]: Time elapsed: 112 ms
+[20:28:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[20:28:01] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[20:28:01] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[20:28:02] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[20:28:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:28:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:28:02] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[20:28:02] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[20:28:02] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[20:28:02] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[20:28:02] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[20:28:03] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[20:28:03] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[20:28:03] [Server thread/INFO]: [Essentials] Using locale en
+[20:28:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:28:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:28:03] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[20:28:03] [Server thread/INFO]: Running delayed init tasks
+[20:28:03] [Server thread/INFO]: Done (8.590s)! For help, type "help"
+[20:28:03] [Server thread/INFO]: Timings Reset
+[20:28:03] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:28:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /lag 
+[20:28:07] [Server thread/INFO]: Uptime: 25 seconds
+[20:28:07] [Server thread/INFO]: Current TPS = 20
+[20:28:07] [Server thread/INFO]: Maximum memory: 1,024 MB.
+[20:28:07] [Server thread/INFO]: Allocated memory: 1,024 MB.
+[20:28:07] [Server thread/INFO]: Free memory: 490 MB.
+[20:28:07] [Server thread/INFO]: World "world": 147 chunks, 8 entities, 7 tiles.
+[20:28:07] [Server thread/INFO]: Nether "world_nether": 192 chunks, 6 entities, 0 tiles.
+[20:28:07] [Server thread/INFO]: The End "world_the_end": 374 chunks, 8 entities, 0 tiles.
+[20:28:14] [Server thread/INFO]: Stopping the server
+[20:28:14] [Server thread/INFO]: Stopping server
+[20:28:14] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[20:28:14] [Server thread/INFO]: Saving players
+[20:28:14] [Server thread/INFO]: Saving worlds
+[20:28:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:28:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:28:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:28:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:28:16] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 2.09s
+[20:28:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:28:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:28:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:28:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:28:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:28:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.96s
+[20:28:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:28:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:28:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:28:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:28:18] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.40s
+[20:28:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:28:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:28:18] [Server thread/INFO]: Flushing Chunk IO
+[20:28:18] [Server thread/INFO]: Closing Thread Pool
+[20:28:18] [Server thread/INFO]: Closing Server
